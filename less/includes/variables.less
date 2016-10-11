@@ -1,0 +1,83 @@
+ /* =====================================
+		Custom variables
+ ======================================== */
+
+@margin: 80px;												/* Margin beetwen sections */
+@overlay-text-color: #fff;								/* Text color on sections #home #slider #subscribe*/
+@transition-duration: 0.45s;
+ /* =====================================
+			Bootstrap variables
+ ======================================== */
+ 
+ /** Typography
+**********************/
+@font-family-base: 'Open Sans', sans-serif;					/* Theme font family */
+@font-size-base: 16px;								/* Font size theme */
+@line-height-base: 24px;
+// Headings
+@headings-font-family: 'Open Sans', sans-serif;	
+@headings-color: @text-color;
+@font-size-h1: @font-size-base * 6;
+@font-size-h2: @font-size-base * 3;
+@font-size-h3: @font-size-base * 1.5;
+@headings-line-height: 1.3;
+ 
+ 
+/** Global styles
+**********************/
+@link-color: @theme-color;   								/* link color */
+@link-hover-color: darken(@theme-color, 5%);				/* Link hover styles */
+@hr-border: @theme-color;									/* Border form horizontal line */		
+
+
+/** Navbar section 
+**********************/
+@nav-link-padding: 5px 15px;								/* Padding nav link */
+@navbar-height: 70px;										/* Default navbar height */
+@navbar-default-bg: transparent;							/* Navbar background */
+@navbar-default-color: @overlay-text-color;					/* Text color in navbar */
+@navbar-default-border: darken(@navbar-default-bg, 6.5%);
+
+@navbar-default-link-color: @overlay-text-color;			/* Link color in navbar */
+@navbar-default-link-hover-color: @theme-color;				/* Link hover color in navbar */
+@navbar-default-link-active-color: @text-color;				/* Color for active link */
+@navbar-default-link-active-bg: transparent;				/* Background for active link */
+
+@navbar-default-brand-color: @overlay-text-color;			/* Brand text color */
+@navbar-default-brand-hover-color: @theme-color;			/* Brand hover text color */
+@navbar-default-brand-hover-bg: transparent;				/* Brand hover background */
+
+@navbar-default-toggle-hover-bg: transparent;				/* Background in hover state */
+@navbar-default-toggle-border-color: @theme-color;			/* Border color */
+@navbar-default-toggle-icon-bar-bg: @theme-color;			/* Color for horizontal icons in button */
+
+@navbar-collapse-max-height: 100%;							
+
+
+/** Form styles  
+**********************/
+@input-bg: transparent;										/* Input background color*/
+@input-color: fade(@text-color, 85%);						/* Color enter text in input and textarea */
+@input-border: @theme-color;								/* Input border color */
+@input-border-focus: @theme-color;							/* Input border in focus state */
+@input-color-placeholder: fade(@text-color, 50%);			/* Color for placeholder text with 50% transparency */
+
+
+/** List-group styles  
+*************************/
+@list-group-bg: @background_color1; 						/* Background for list element (placed in price section) */
+@list-group-border: transparent;			/* Border for list element (placed in price section) */
+// @list-group-border:darken(@background_color1, 20%);
+
+/** Buttons styles  
+**********************/
+@btn-font-weight: bold;								/* Dont weight for all buttons */			
+// Primary
+@btn-primary-color: #fff;							/* Primary buttons color */
+@btn-primary-bg:  @theme-color;						/* Primary buttons background */
+
+/** Modals styles  
+**********************/
+@modal-content-bg: @background_color1;
+@modal-header-border-color: mix(@theme-color, @background_color1);
+@modal-footer-border-color: mix(@theme-color, @background_color1);

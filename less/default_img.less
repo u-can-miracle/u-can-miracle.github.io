@@ -1,0 +1,42 @@
+/* Style only for background image */
+
+
+@img-location-bg-1:
+"../img/background-slides/jetty-landing-stage-ocean-2118_2.jpg"; 
+/* Location to 1st images bg #home section */
+
+@img-location-bg-2:
+"../img/background-slides/city-river-water-tower-2184_2.jpg"; 
+/* Location to 2nd images bg #slider section */
+
+@img-location-bg-3:
+"../img/background-slides/city-foggy-lake-1700_2.jpg";  
+/* Location to 3th images bg #subscribe section */
+
+
+
+/***  Bootstrap  ***/
+@import "../bower_components/bootstrap/less/variables.less";
+@import "../bower_components/bootstrap/less/mixins.less";
+
+/***  Variables value  ***/
+//@import "includes/variables.less";
+/***	Custom mixins  ***/
+@import "includes/mixins.less";
+
+
+#home {
+    .bg_property(@img-location-bg-1);
+}
+
+#slider {
+    .bg_property(@img-location-bg-2);
+}
+
+#subscribe {
+    .bg_property(@img-location-bg-3);
+}
+
+#portfolio #view{
+	.bg_property(@img-location-bg-1);
+}

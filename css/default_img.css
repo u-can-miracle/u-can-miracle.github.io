@@ -1,0 +1,38 @@
+/* Style only for background image */
+/* Location to 1st images bg #home section */
+/* Location to 2nd images bg #slider section */
+/* Location to 3th images bg #subscribe section */
+/***  Bootstrap  ***/
+/***  Variables value  ***/
+/***	Custom mixins  ***/
+/** Custom mixins 
+**********************/
+/* cubic-bezier(0.250, 0.460, 0.450, 0.940)*/
+#home {
+  background: url("../img/background-slides/jetty-landing-stage-ocean-2118_2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#slider {
+  background: url("../img/background-slides/city-river-water-tower-2184_2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#subscribe {
+  background: url("../img/background-slides/city-foggy-lake-1700_2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#portfolio #view {
+  background: url("../img/background-slides/jetty-landing-stage-ocean-2118_2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

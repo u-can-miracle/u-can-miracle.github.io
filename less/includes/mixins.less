@@ -1,0 +1,34 @@
+
+/** Custom mixins 
+**********************/
+/* cubic-bezier(0.250, 0.460, 0.450, 0.940)*/
+.transition(@property: all; @function:cubic-bezier(.05,0,0,.83); @duration: @transition-duration){
+	-webkit-transition: @property @function @duration;
+	-moz-transition: @property @function @duration;
+	-ms-transition: @property @function @duration;
+	transition: @property @function @duration;
+}
+.borderRadius(@radius){
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	-ms-border-radius: @radius;
+	border-radius: @radius;
+}
+.borderRadiusIE(@radius){
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	-ms-border-radius: @radius;
+	border-radius: @radius;
+	behavior: url("js/PIE.htc");
+}
+.margin(@offset:@margin){
+	margin-top:@margin;
+	margin-bottom:@margin;
+}
+.bg_property(@bg){
+  background: url(@bg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
