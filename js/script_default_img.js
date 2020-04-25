@@ -330,24 +330,24 @@ $(document).ready(function() {
     $(window).load(function() {
 
         /***  Google map  ***/
-        var myLatlng = new google.maps.LatLng(40.6843528, -74.1159731);
-        var mapOptions = {
-            zoom: 12,
-            center: myLatlng,
-            scrollwheel: false,
-            navigationControl: false,
-            mapTypeControl: false,
-            scaleControl: false,
-            draggable: false
-        };
-        var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
-
-        // To add the marker to the map, use the 'map' property
-        var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(40.7513528, -73.9599731),
-            map: map,
-            title: "It's here"
-        });
+        // var myLatlng = new google.maps.LatLng(40.6843528, -74.1159731);
+        // var mapOptions = {
+        //     zoom: 12,
+        //     center: myLatlng,
+        //     scrollwheel: false,
+        //     navigationControl: false,
+        //     mapTypeControl: false,
+        //     scaleControl: false,
+        //     draggable: false
+        // };
+        // var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+        //
+        // // To add the marker to the map, use the 'map' property
+        // var marker = new google.maps.Marker({
+        //     position: new google.maps.LatLng(40.7513528, -73.9599731),
+        //     map: map,
+        //     title: "It's here"
+        // });
 
 
         /*** Portfolio gallery ***/
